@@ -6,10 +6,26 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		D180EE201E16C92D007DBADD /* UniversalBuilder */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D180EE211E16C92D007DBADD /* Build configuration list for PBXAggregateTarget "UniversalBuilder" */;
+			buildPhases = (
+				D180EE241E16C940007DBADD /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalBuilder;
+			productName = UniversalBuilder;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		D180EE071E16C4EA007DBADD /* TappxFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D180EE061E16C4EA007DBADD /* TappxFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D180EE0E1E16C4EA007DBADD /* TappxFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D180EE031E16C4EA007DBADD /* TappxFramework.framework */; };
 		D180EE131E16C4EA007DBADD /* TappxFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D180EE121E16C4EA007DBADD /* TappxFrameworkTests.swift */; };
+		D180EE1E1E16C835007DBADD /* TappxFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D180EE1D1E16C835007DBADD /* TappxFramework.swift */; };
+		D180EE1F1E16C835007DBADD /* TappxFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D180EE1D1E16C835007DBADD /* TappxFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +45,7 @@
 		D180EE0D1E16C4EA007DBADD /* TappxFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TappxFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D180EE121E16C4EA007DBADD /* TappxFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappxFrameworkTests.swift; sourceTree = "<group>"; };
 		D180EE141E16C4EA007DBADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D180EE1D1E16C835007DBADD /* TappxFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +88,7 @@
 		D180EE051E16C4EA007DBADD /* TappxFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D180EE1D1E16C835007DBADD /* TappxFramework.swift */,
 				D180EE061E16C4EA007DBADD /* TappxFramework.h */,
 				D180EE081E16C4EA007DBADD /* Info.plist */,
 			);
@@ -153,6 +171,9 @@
 					D180EE0C1E16C4EA007DBADD = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					D180EE201E16C92D007DBADD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = D180EDFD1E16C4EA007DBADD /* Build configuration list for PBXProject "TappxFramework" */;
@@ -169,6 +190,7 @@
 			targets = (
 				D180EE021E16C4EA007DBADD /* TappxFramework */,
 				D180EE0C1E16C4EA007DBADD /* TappxFrameworkTests */,
+				D180EE201E16C92D007DBADD /* UniversalBuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -190,11 +212,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D180EE241E16C940007DBADD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Merge Script\n\n# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"TappxFramework\"\n\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch arm64 -arch armv7 -arch armv7s only_active_arch=no defines_module=yes -sdk \"iphoneos\"\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\"\n\n# 5\n# Remove .framework file if exists on Desktop from previous run.\nif [ -d \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\nfi\n\n# 6\n# Copy the device version of framework to Desktop.\ncp -r \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\n\n# 7\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n\n# 8\n# Copy the Swift module mappings for the simulator into the\n# framework.  The device mappings already exist from step 6.\ncp -r \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\n\n# 9\n# Delete the most recent build.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D180EDFE1E16C4EA007DBADD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D180EE1E1E16C835007DBADD /* TappxFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D180EE1F1E16C835007DBADD /* TappxFramework.swift in Sources */,
 				D180EE131E16C4EA007DBADD /* TappxFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +297,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +340,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -311,6 +352,7 @@
 		D180EE181E16C4EA007DBADD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -322,12 +364,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.4crew.sid.TappxFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D180EE191E16C4EA007DBADD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -362,6 +406,20 @@
 			};
 			name = Release;
 		};
+		D180EE221E16C92D007DBADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D180EE231E16C92D007DBADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -387,6 +445,14 @@
 			buildConfigurations = (
 				D180EE1B1E16C4EA007DBADD /* Debug */,
 				D180EE1C1E16C4EA007DBADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D180EE211E16C92D007DBADD /* Build configuration list for PBXAggregateTarget "UniversalBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D180EE221E16C92D007DBADD /* Debug */,
+				D180EE231E16C92D007DBADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
