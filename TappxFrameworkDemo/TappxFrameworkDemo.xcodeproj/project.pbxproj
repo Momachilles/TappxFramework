@@ -13,6 +13,7 @@
 		D1411CC01E16CEA000284D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1411CBF1E16CEA000284D13 /* Assets.xcassets */; };
 		D1411CC31E16CEA000284D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1411CC11E16CEA000284D13 /* LaunchScreen.storyboard */; };
 		D1411CCE1E16CEA000284D13 /* TappxFrameworkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CCD1E16CEA000284D13 /* TappxFrameworkDemoTests.swift */; };
+		D1411CDA1E16CECF00284D13 /* TappxFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1411CD91E16CECF00284D13 /* TappxFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D1411CC91E16CEA000284D13 /* TappxFrameworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TappxFrameworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1411CCD1E16CEA000284D13 /* TappxFrameworkDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappxFrameworkDemoTests.swift; sourceTree = "<group>"; };
 		D1411CCF1E16CEA000284D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1411CD91E16CECF00284D13 /* TappxFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TappxFramework.framework; path = ../../../../../Desktop/TappxFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1411CDA1E16CECF00284D13 /* TappxFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		D1411CB71E16CEA000284D13 /* TappxFrameworkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D1411CD81E16CEB900284D13 /* Frameworks */,
 				D1411CB81E16CEA000284D13 /* AppDelegate.swift */,
 				D1411CBA1E16CEA000284D13 /* ViewController.swift */,
 				D1411CBC1E16CEA000284D13 /* Main.storyboard */,
@@ -94,6 +98,14 @@
 				D1411CCF1E16CEA000284D13 /* Info.plist */,
 			);
 			path = TappxFrameworkDemoTests;
+			sourceTree = "<group>";
+		};
+		D1411CD81E16CEB900284D13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1411CD91E16CECF00284D13 /* TappxFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

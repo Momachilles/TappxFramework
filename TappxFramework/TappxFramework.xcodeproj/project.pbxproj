@@ -6,20 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		D180EE201E16C92D007DBADD /* UniversalBuilder */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = D180EE211E16C92D007DBADD /* Build configuration list for PBXAggregateTarget "UniversalBuilder" */;
-			buildPhases = (
-				D180EE241E16C940007DBADD /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = UniversalBuilder;
-			productName = UniversalBuilder;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		D180EE071E16C4EA007DBADD /* TappxFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D180EE061E16C4EA007DBADD /* TappxFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D180EE0E1E16C4EA007DBADD /* TappxFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D180EE031E16C4EA007DBADD /* TappxFramework.framework */; };
@@ -171,9 +157,6 @@
 					D180EE0C1E16C4EA007DBADD = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					D180EE201E16C92D007DBADD = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
 				};
 			};
 			buildConfigurationList = D180EDFD1E16C4EA007DBADD /* Build configuration list for PBXProject "TappxFramework" */;
@@ -190,7 +173,6 @@
 			targets = (
 				D180EE021E16C4EA007DBADD /* TappxFramework */,
 				D180EE0C1E16C4EA007DBADD /* TappxFrameworkTests */,
-				D180EE201E16C92D007DBADD /* UniversalBuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -211,22 +193,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D180EE241E16C940007DBADD /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Merge Script\n\n# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"TappxFramework\"\n\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch arm64 -arch armv7 -arch armv7s only_active_arch=no defines_module=yes -sdk \"iphoneos\"\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\"\n\n# 5\n# Remove .framework file if exists on Desktop from previous run.\nif [ -d \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\nfi\n\n# 6\n# Copy the device version of framework to Desktop.\ncp -r \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\n\n# 7\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n\n# 8\n# Copy the Swift module mappings for the simulator into the\n# framework.  The device mappings already exist from step 6.\ncp -r \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\n\n# 9\n# Delete the most recent build.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D180EDFE1E16C4EA007DBADD /* Sources */ = {
@@ -406,20 +372,6 @@
 			};
 			name = Release;
 		};
-		D180EE221E16C92D007DBADD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		D180EE231E16C92D007DBADD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -439,6 +391,7 @@
 				D180EE191E16C4EA007DBADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D180EE1A1E16C4EA007DBADD /* Build configuration list for PBXNativeTarget "TappxFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -447,14 +400,7 @@
 				D180EE1C1E16C4EA007DBADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D180EE211E16C92D007DBADD /* Build configuration list for PBXAggregateTarget "UniversalBuilder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D180EE221E16C92D007DBADD /* Debug */,
-				D180EE231E16C92D007DBADD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

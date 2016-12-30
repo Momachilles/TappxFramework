@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TappxFrameworkDemo/TappxFrameworkDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TappxFramework/TappxFramework.xcodeproj">
    </FileRef>
 </Workspace>
