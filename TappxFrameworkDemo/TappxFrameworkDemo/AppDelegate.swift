@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         TappxFramework.initTappx(from: "1234")
+        TappxFramework.sharedInstance.addAdapter(TestAdapter())
         
         return true
     }

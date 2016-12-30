@@ -13,7 +13,8 @@
 		D1411CC01E16CEA000284D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1411CBF1E16CEA000284D13 /* Assets.xcassets */; };
 		D1411CC31E16CEA000284D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1411CC11E16CEA000284D13 /* LaunchScreen.storyboard */; };
 		D1411CCE1E16CEA000284D13 /* TappxFrameworkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CCD1E16CEA000284D13 /* TappxFrameworkDemoTests.swift */; };
-		D1411CDA1E16CECF00284D13 /* TappxFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1411CD91E16CECF00284D13 /* TappxFramework.framework */; };
+		D1DEB8601E16D90300E49FAE /* TappxFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DEB85F1E16D90300E49FAE /* TappxFramework.framework */; };
+		D1DEB8621E16D99100E49FAE /* TestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DEB8611E16D99100E49FAE /* TestAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,8 @@
 		D1411CC91E16CEA000284D13 /* TappxFrameworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TappxFrameworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1411CCD1E16CEA000284D13 /* TappxFrameworkDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappxFrameworkDemoTests.swift; sourceTree = "<group>"; };
 		D1411CCF1E16CEA000284D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1411CD91E16CECF00284D13 /* TappxFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TappxFramework.framework; path = ../../../../../Desktop/TappxFramework.framework; sourceTree = "<group>"; };
+		D1DEB85F1E16D90300E49FAE /* TappxFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TappxFramework.framework; sourceTree = "<group>"; };
+		D1DEB8611E16D99100E49FAE /* TestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1411CDA1E16CECF00284D13 /* TappxFramework.framework in Frameworks */,
+				D1DEB8601E16D90300E49FAE /* TappxFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +89,7 @@
 				D1411CBF1E16CEA000284D13 /* Assets.xcassets */,
 				D1411CC11E16CEA000284D13 /* LaunchScreen.storyboard */,
 				D1411CC41E16CEA000284D13 /* Info.plist */,
+				D1DEB8611E16D99100E49FAE /* TestAdapter.swift */,
 			);
 			path = TappxFrameworkDemo;
 			sourceTree = "<group>";
@@ -103,7 +106,7 @@
 		D1411CD81E16CEB900284D13 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1411CD91E16CECF00284D13 /* TappxFramework.framework */,
+				D1DEB85F1E16D90300E49FAE /* TappxFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			files = (
 				D1411CBB1E16CEA000284D13 /* ViewController.swift in Sources */,
 				D1411CB91E16CEA000284D13 /* AppDelegate.swift in Sources */,
+				D1DEB8621E16D99100E49FAE /* TestAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +345,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TappxFrameworkDemo",
+				);
 				INFOPLIST_FILE = TappxFrameworkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.4crew.sid.TappxFrameworkDemo;
@@ -352,6 +360,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TappxFrameworkDemo",
+				);
 				INFOPLIST_FILE = TappxFrameworkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.4crew.sid.TappxFrameworkDemo;
@@ -402,6 +414,7 @@
 				D1411CD41E16CEA000284D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1411CD51E16CEA000284D13 /* Build configuration list for PBXNativeTarget "TappxFrameworkDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +423,7 @@
 				D1411CD71E16CEA000284D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
