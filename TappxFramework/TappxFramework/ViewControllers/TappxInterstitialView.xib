@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TappxInterstitialView" customModule="TappxFramework7" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPh-RJ-AlD">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oAW-AV-OKb">
+                            <rect key="frame" x="275" y="275" width="50" height="50"/>
+                            <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="5IN-5s-S1d"/>
+                                <constraint firstAttribute="width" constant="50" id="Zas-gd-ad6"/>
+                            </constraints>
+                        </webView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mrZ-oG-3n9" customClass="TappxCloseButton" customModule="TappxFramework7" customModuleProvider="target">
+                            <rect key="frame" x="270" y="270" width="60" height="60"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="bZB-bQ-A1a"/>
+                                <constraint firstAttribute="width" constant="60" id="bp2-F7-Ple"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderSize">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderAlpha">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="number">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerSize">
+                                    <real key="value" value="25"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="number">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                    <real key="value" value="30"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="closeButtonDidPress:" destination="iN0-l3-epB" eventType="touchUpInside" id="gMQ-Bg-E3b"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="oAW-AV-OKb" firstAttribute="centerY" secondItem="GPh-RJ-AlD" secondAttribute="centerY" id="6Kk-m2-NkL"/>
+                        <constraint firstItem="mrZ-oG-3n9" firstAttribute="leading" secondItem="oAW-AV-OKb" secondAttribute="trailing" constant="-55" id="PdJ-LW-8aA"/>
+                        <constraint firstItem="oAW-AV-OKb" firstAttribute="top" secondItem="mrZ-oG-3n9" secondAttribute="bottom" constant="-55" id="dGw-VI-2CR"/>
+                        <constraint firstItem="oAW-AV-OKb" firstAttribute="centerX" secondItem="GPh-RJ-AlD" secondAttribute="centerX" id="lTs-tI-OYK"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="GPh-RJ-AlD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0mk-QM-Otf"/>
+                <constraint firstAttribute="bottom" secondItem="GPh-RJ-AlD" secondAttribute="bottom" id="EZy-ye-ahq"/>
+                <constraint firstItem="GPh-RJ-AlD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aSc-u6-LHW"/>
+                <constraint firstAttribute="trailing" secondItem="GPh-RJ-AlD" secondAttribute="trailing" id="yhs-ae-1qq"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <connections>
+                <outlet property="closeButton" destination="mrZ-oG-3n9" id="yKW-Hs-quu"/>
+                <outlet property="heightInterstitialWebViewConstraint" destination="5IN-5s-S1d" id="Vvr-3r-zpD"/>
+                <outlet property="interstitialWebView" destination="oAW-AV-OKb" id="R8B-pk-dRk"/>
+                <outlet property="widthInterstitialWebViewConstraint" destination="Zas-gd-ad6" id="6lh-Ad-hqt"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

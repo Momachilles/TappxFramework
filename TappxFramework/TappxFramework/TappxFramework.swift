@@ -48,7 +48,6 @@ public enum InterstitialForcedSize: String {
 public class TappxFramework: NSObject {
     public static let sharedInstance = TappxFramework()
     
-    /*
     var requestInfo: TappxRequestInfo = TappxRequestInfo()
     
     public var sdkType = "Native" {
@@ -68,16 +67,16 @@ public class TappxFramework: NSObject {
     let locationManager: TappxLocationManager = TappxLocationManager()
     var lastPosition: (latitude: Double, longitude: Double)?  {
         return self.locationManager.lastPosition
-    }*/
+    }
     
     ///This prevents others from using the default '()' initializer for this class.
     private override init() {}
     
-    public static func initTappx(from clientId: String/*, with settings: TappxSettings = TappxSettings()*/) {
+    public static func initTappx(from clientId: String, with settings: TappxSettings = TappxSettings()) {
         let framework = TappxFramework.sharedInstance
         framework.clientId = clientId
-        //framework.update(settings)
-        //framework.locationManager.startLocation()
+        framework.update(settings)
+        framework.locationManager.startLocation()
     }
     
 }
@@ -106,7 +105,6 @@ extension TappxFramework {
 }
 
 // MARK: - Adapters
-/*
 extension TappxFramework: TappxAdapterContainer {
     
     public func removeAdapter(adapter: TappxAdapter) throws {
@@ -156,6 +154,6 @@ extension TappxFramework {
         
     }
 }
-*/
+
 
 

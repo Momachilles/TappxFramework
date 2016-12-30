@@ -7,6 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1411CE71E16D09E00284D13 /* TappxMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CDD1E16D09E00284D13 /* TappxMediator.swift */; };
+		D1411CE81E16D09E00284D13 /* TappxMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CDD1E16D09E00284D13 /* TappxMediator.swift */; };
+		D1411CE91E16D09E00284D13 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CDE1E16D09E00284D13 /* Result.swift */; };
+		D1411CEA1E16D09E00284D13 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CDE1E16D09E00284D13 /* Result.swift */; };
+		D1411CEB1E16D09E00284D13 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CDF1E16D09E00284D13 /* Future.swift */; };
+		D1411CEC1E16D09E00284D13 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CDF1E16D09E00284D13 /* Future.swift */; };
+		D1411CED1E16D09E00284D13 /* TappxBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE01E16D09E00284D13 /* TappxBanner.swift */; };
+		D1411CEE1E16D09E00284D13 /* TappxBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE01E16D09E00284D13 /* TappxBanner.swift */; };
+		D1411CEF1E16D09E00284D13 /* TappxInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE11E16D09E00284D13 /* TappxInterstitial.swift */; };
+		D1411CF01E16D09E00284D13 /* TappxInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE11E16D09E00284D13 /* TappxInterstitial.swift */; };
+		D1411CF11E16D09E00284D13 /* TappxQueryStringParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE21E16D09E00284D13 /* TappxQueryStringParameters.swift */; };
+		D1411CF21E16D09E00284D13 /* TappxQueryStringParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE21E16D09E00284D13 /* TappxQueryStringParameters.swift */; };
+		D1411CF31E16D09E00284D13 /* TappxPostBodyParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE31E16D09E00284D13 /* TappxPostBodyParameters.swift */; };
+		D1411CF41E16D09E00284D13 /* TappxPostBodyParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE31E16D09E00284D13 /* TappxPostBodyParameters.swift */; };
+		D1411CF51E16D09E00284D13 /* ResponseHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE41E16D09E00284D13 /* ResponseHeaders.swift */; };
+		D1411CF61E16D09E00284D13 /* ResponseHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE41E16D09E00284D13 /* ResponseHeaders.swift */; };
+		D1411CF71E16D09E00284D13 /* TappxSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE51E16D09E00284D13 /* TappxSettings.swift */; };
+		D1411CF81E16D09E00284D13 /* TappxSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE51E16D09E00284D13 /* TappxSettings.swift */; };
+		D1411CF91E16D09E00284D13 /* TappxRequestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE61E16D09E00284D13 /* TappxRequestInfo.swift */; };
+		D1411CFA1E16D09E00284D13 /* TappxRequestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411CE61E16D09E00284D13 /* TappxRequestInfo.swift */; };
+		D1411D051E16D31600284D13 /* TappxMRAIDParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D031E16D31600284D13 /* TappxMRAIDParser.swift */; };
+		D1411D061E16D31600284D13 /* TappxMRAIDParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D031E16D31600284D13 /* TappxMRAIDParser.swift */; };
+		D1411D071E16D31600284D13 /* TappxMRAIDServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D041E16D31600284D13 /* TappxMRAIDServiceDelegate.swift */; };
+		D1411D081E16D31600284D13 /* TappxMRAIDServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D041E16D31600284D13 /* TappxMRAIDServiceDelegate.swift */; };
+		D1411D0C1E16D32600284D13 /* TappxPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D091E16D32600284D13 /* TappxPostProcessor.swift */; };
+		D1411D0D1E16D32600284D13 /* TappxPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D091E16D32600284D13 /* TappxPostProcessor.swift */; };
+		D1411D0E1E16D32600284D13 /* TappxPassbackPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D0A1E16D32600284D13 /* TappxPassbackPostProcessor.swift */; };
+		D1411D0F1E16D32600284D13 /* TappxPassbackPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D0A1E16D32600284D13 /* TappxPassbackPostProcessor.swift */; };
+		D1411D101E16D32600284D13 /* TappxMediationPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D0B1E16D32600284D13 /* TappxMediationPostProcessor.swift */; };
+		D1411D111E16D32600284D13 /* TappxMediationPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D0B1E16D32600284D13 /* TappxMediationPostProcessor.swift */; };
+		D1411D141E16D32E00284D13 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D121E16D32E00284D13 /* DataSource.swift */; };
+		D1411D151E16D32E00284D13 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D121E16D32E00284D13 /* DataSource.swift */; };
+		D1411D161E16D32E00284D13 /* TappxSignaler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D131E16D32E00284D13 /* TappxSignaler.swift */; };
+		D1411D171E16D32E00284D13 /* TappxSignaler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D131E16D32E00284D13 /* TappxSignaler.swift */; };
+		D1411D1F1E16D34500284D13 /* TappxBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D181E16D34500284D13 /* TappxBannerViewController.swift */; };
+		D1411D201E16D34500284D13 /* TappxBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D181E16D34500284D13 /* TappxBannerViewController.swift */; };
+		D1411D211E16D34500284D13 /* TappxBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D191E16D34500284D13 /* TappxBannerView.swift */; };
+		D1411D221E16D34500284D13 /* TappxBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D191E16D34500284D13 /* TappxBannerView.swift */; };
+		D1411D231E16D34500284D13 /* TappxBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1411D1A1E16D34500284D13 /* TappxBannerView.xib */; };
+		D1411D241E16D34500284D13 /* TappxBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1411D1A1E16D34500284D13 /* TappxBannerView.xib */; };
+		D1411D251E16D34500284D13 /* TappxInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D1B1E16D34500284D13 /* TappxInterstitialViewController.swift */; };
+		D1411D261E16D34500284D13 /* TappxInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D1B1E16D34500284D13 /* TappxInterstitialViewController.swift */; };
+		D1411D271E16D34500284D13 /* TappxInterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D1C1E16D34500284D13 /* TappxInterstitialView.swift */; };
+		D1411D281E16D34500284D13 /* TappxInterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D1C1E16D34500284D13 /* TappxInterstitialView.swift */; };
+		D1411D291E16D34500284D13 /* TappxInterstitialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1411D1D1E16D34500284D13 /* TappxInterstitialView.xib */; };
+		D1411D2A1E16D34500284D13 /* TappxInterstitialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1411D1D1E16D34500284D13 /* TappxInterstitialView.xib */; };
+		D1411D2B1E16D34500284D13 /* TappxCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D1E1E16D34500284D13 /* TappxCloseButton.swift */; };
+		D1411D2C1E16D34500284D13 /* TappxCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D1E1E16D34500284D13 /* TappxCloseButton.swift */; };
+		D1411D331E16D39A00284D13 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D2F1E16D39A00284D13 /* Request.swift */; };
+		D1411D341E16D39A00284D13 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D2F1E16D39A00284D13 /* Request.swift */; };
+		D1411D351E16D39A00284D13 /* TappxRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D301E16D39A00284D13 /* TappxRequest.swift */; };
+		D1411D361E16D39A00284D13 /* TappxRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D301E16D39A00284D13 /* TappxRequest.swift */; };
+		D1411D371E16D39A00284D13 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D311E16D39A00284D13 /* NetworkController.swift */; };
+		D1411D381E16D39A00284D13 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D311E16D39A00284D13 /* NetworkController.swift */; };
+		D1411D391E16D39A00284D13 /* Reachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D321E16D39A00284D13 /* Reachable.swift */; };
+		D1411D3A1E16D39A00284D13 /* Reachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D321E16D39A00284D13 /* Reachable.swift */; };
+		D1411D3C1E16D3A000284D13 /* TappxLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D3B1E16D3A000284D13 /* TappxLocationManager.swift */; };
+		D1411D3D1E16D3A000284D13 /* TappxLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D3B1E16D3A000284D13 /* TappxLocationManager.swift */; };
+		D1411D3F1E16D3A900284D13 /* TappxAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D3E1E16D3A900284D13 /* TappxAdapter.swift */; };
+		D1411D401E16D3A900284D13 /* TappxAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D3E1E16D3A900284D13 /* TappxAdapter.swift */; };
+		D1411D461E16D3B300284D13 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D411E16D3B300284D13 /* UIView+Nib.swift */; };
+		D1411D471E16D3B300284D13 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D411E16D3B300284D13 /* UIView+Nib.swift */; };
+		D1411D481E16D3B300284D13 /* NSURLSessionConfiguration+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D421E16D3B300284D13 /* NSURLSessionConfiguration+Protocols.swift */; };
+		D1411D491E16D3B300284D13 /* NSURLSessionConfiguration+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D421E16D3B300284D13 /* NSURLSessionConfiguration+Protocols.swift */; };
+		D1411D4A1E16D3B300284D13 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D431E16D3B300284D13 /* String+URL.swift */; };
+		D1411D4B1E16D3B300284D13 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D431E16D3B300284D13 /* String+URL.swift */; };
+		D1411D4C1E16D3B300284D13 /* Dictionary+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D441E16D3B300284D13 /* Dictionary+URL.swift */; };
+		D1411D4D1E16D3B300284D13 /* Dictionary+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D441E16D3B300284D13 /* Dictionary+URL.swift */; };
+		D1411D4E1E16D3B300284D13 /* UIGestureRecognizer+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D451E16D3B300284D13 /* UIGestureRecognizer+Action.swift */; };
+		D1411D4F1E16D3B300284D13 /* UIGestureRecognizer+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1411D451E16D3B300284D13 /* UIGestureRecognizer+Action.swift */; };
 		D180EE071E16C4EA007DBADD /* TappxFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D180EE061E16C4EA007DBADD /* TappxFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D180EE0E1E16C4EA007DBADD /* TappxFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D180EE031E16C4EA007DBADD /* TappxFramework.framework */; };
 		D180EE131E16C4EA007DBADD /* TappxFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D180EE121E16C4EA007DBADD /* TappxFrameworkTests.swift */; };
@@ -25,6 +95,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1411CDD1E16D09E00284D13 /* TappxMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxMediator.swift; sourceTree = "<group>"; };
+		D1411CDE1E16D09E00284D13 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		D1411CDF1E16D09E00284D13 /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
+		D1411CE01E16D09E00284D13 /* TappxBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxBanner.swift; sourceTree = "<group>"; };
+		D1411CE11E16D09E00284D13 /* TappxInterstitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxInterstitial.swift; sourceTree = "<group>"; };
+		D1411CE21E16D09E00284D13 /* TappxQueryStringParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxQueryStringParameters.swift; sourceTree = "<group>"; };
+		D1411CE31E16D09E00284D13 /* TappxPostBodyParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxPostBodyParameters.swift; sourceTree = "<group>"; };
+		D1411CE41E16D09E00284D13 /* ResponseHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseHeaders.swift; sourceTree = "<group>"; };
+		D1411CE51E16D09E00284D13 /* TappxSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxSettings.swift; sourceTree = "<group>"; };
+		D1411CE61E16D09E00284D13 /* TappxRequestInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxRequestInfo.swift; sourceTree = "<group>"; };
+		D1411D031E16D31600284D13 /* TappxMRAIDParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxMRAIDParser.swift; sourceTree = "<group>"; };
+		D1411D041E16D31600284D13 /* TappxMRAIDServiceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxMRAIDServiceDelegate.swift; sourceTree = "<group>"; };
+		D1411D091E16D32600284D13 /* TappxPostProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxPostProcessor.swift; sourceTree = "<group>"; };
+		D1411D0A1E16D32600284D13 /* TappxPassbackPostProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxPassbackPostProcessor.swift; sourceTree = "<group>"; };
+		D1411D0B1E16D32600284D13 /* TappxMediationPostProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxMediationPostProcessor.swift; sourceTree = "<group>"; };
+		D1411D121E16D32E00284D13 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		D1411D131E16D32E00284D13 /* TappxSignaler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxSignaler.swift; sourceTree = "<group>"; };
+		D1411D181E16D34500284D13 /* TappxBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxBannerViewController.swift; sourceTree = "<group>"; };
+		D1411D191E16D34500284D13 /* TappxBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxBannerView.swift; sourceTree = "<group>"; };
+		D1411D1A1E16D34500284D13 /* TappxBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TappxBannerView.xib; sourceTree = "<group>"; };
+		D1411D1B1E16D34500284D13 /* TappxInterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxInterstitialViewController.swift; sourceTree = "<group>"; };
+		D1411D1C1E16D34500284D13 /* TappxInterstitialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxInterstitialView.swift; sourceTree = "<group>"; };
+		D1411D1D1E16D34500284D13 /* TappxInterstitialView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TappxInterstitialView.xib; sourceTree = "<group>"; };
+		D1411D1E1E16D34500284D13 /* TappxCloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxCloseButton.swift; sourceTree = "<group>"; };
+		D1411D2F1E16D39A00284D13 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D1411D301E16D39A00284D13 /* TappxRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxRequest.swift; sourceTree = "<group>"; };
+		D1411D311E16D39A00284D13 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		D1411D321E16D39A00284D13 /* Reachable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachable.swift; sourceTree = "<group>"; };
+		D1411D3B1E16D3A000284D13 /* TappxLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxLocationManager.swift; sourceTree = "<group>"; };
+		D1411D3E1E16D3A900284D13 /* TappxAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappxAdapter.swift; sourceTree = "<group>"; };
+		D1411D411E16D3B300284D13 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		D1411D421E16D3B300284D13 /* NSURLSessionConfiguration+Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLSessionConfiguration+Protocols.swift"; sourceTree = "<group>"; };
+		D1411D431E16D3B300284D13 /* String+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URL.swift"; sourceTree = "<group>"; };
+		D1411D441E16D3B300284D13 /* Dictionary+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+URL.swift"; sourceTree = "<group>"; };
+		D1411D451E16D3B300284D13 /* UIGestureRecognizer+Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+Action.swift"; sourceTree = "<group>"; };
 		D180EE031E16C4EA007DBADD /* TappxFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TappxFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D180EE061E16C4EA007DBADD /* TappxFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TappxFramework.h; sourceTree = "<group>"; };
 		D180EE081E16C4EA007DBADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +158,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1411CDC1E16D03800284D13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1411CDD1E16D09E00284D13 /* TappxMediator.swift */,
+				D1411CDE1E16D09E00284D13 /* Result.swift */,
+				D1411CDF1E16D09E00284D13 /* Future.swift */,
+				D1411CE01E16D09E00284D13 /* TappxBanner.swift */,
+				D1411CE11E16D09E00284D13 /* TappxInterstitial.swift */,
+				D1411CE21E16D09E00284D13 /* TappxQueryStringParameters.swift */,
+				D1411CE31E16D09E00284D13 /* TappxPostBodyParameters.swift */,
+				D1411CE41E16D09E00284D13 /* ResponseHeaders.swift */,
+				D1411CE51E16D09E00284D13 /* TappxSettings.swift */,
+				D1411CE61E16D09E00284D13 /* TappxRequestInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1411CFB1E16D11000284D13 /* MRAID */ = {
+			isa = PBXGroup;
+			children = (
+				D1411D031E16D31600284D13 /* TappxMRAIDParser.swift */,
+				D1411D041E16D31600284D13 /* TappxMRAIDServiceDelegate.swift */,
+			);
+			path = MRAID;
+			sourceTree = "<group>";
+		};
+		D1411CFC1E16D12500284D13 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1411D2D1E16D35600284D13 /* TappxBannerViewController */,
+				D1411D2E1E16D37800284D13 /* TappxInterstitialViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D1411CFD1E16D17E00284D13 /* PostProcessors */ = {
+			isa = PBXGroup;
+			children = (
+				D1411D091E16D32600284D13 /* TappxPostProcessor.swift */,
+				D1411D0A1E16D32600284D13 /* TappxPassbackPostProcessor.swift */,
+				D1411D0B1E16D32600284D13 /* TappxMediationPostProcessor.swift */,
+			);
+			name = PostProcessors;
+			path = ../PostProcessors;
+			sourceTree = "<group>";
+		};
+		D1411CFE1E16D19000284D13 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				D1411D121E16D32E00284D13 /* DataSource.swift */,
+				D1411D131E16D32E00284D13 /* TappxSignaler.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		D1411CFF1E16D1CC00284D13 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D1411D2F1E16D39A00284D13 /* Request.swift */,
+				D1411D301E16D39A00284D13 /* TappxRequest.swift */,
+				D1411D311E16D39A00284D13 /* NetworkController.swift */,
+				D1411D321E16D39A00284D13 /* Reachable.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D1411D001E16D1E000284D13 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				D1411D3B1E16D3A000284D13 /* TappxLocationManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		D1411D011E16D21C00284D13 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				D1411D3E1E16D3A900284D13 /* TappxAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		D1411D021E16D22800284D13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D1411D411E16D3B300284D13 /* UIView+Nib.swift */,
+				D1411D421E16D3B300284D13 /* NSURLSessionConfiguration+Protocols.swift */,
+				D1411D431E16D3B300284D13 /* String+URL.swift */,
+				D1411D441E16D3B300284D13 /* Dictionary+URL.swift */,
+				D1411D451E16D3B300284D13 /* UIGestureRecognizer+Action.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D1411D2D1E16D35600284D13 /* TappxBannerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1411D181E16D34500284D13 /* TappxBannerViewController.swift */,
+				D1411D191E16D34500284D13 /* TappxBannerView.swift */,
+				D1411D1A1E16D34500284D13 /* TappxBannerView.xib */,
+			);
+			name = TappxBannerViewController;
+			sourceTree = "<group>";
+		};
+		D1411D2E1E16D37800284D13 /* TappxInterstitialViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1411D1B1E16D34500284D13 /* TappxInterstitialViewController.swift */,
+				D1411D1C1E16D34500284D13 /* TappxInterstitialView.swift */,
+				D1411D1D1E16D34500284D13 /* TappxInterstitialView.xib */,
+				D1411D1E1E16D34500284D13 /* TappxCloseButton.swift */,
+			);
+			name = TappxInterstitialViewController;
+			sourceTree = "<group>";
+		};
 		D180EDF91E16C4E9007DBADD = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +294,15 @@
 		D180EE051E16C4EA007DBADD /* TappxFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D1411D021E16D22800284D13 /* Extensions */,
+				D1411D011E16D21C00284D13 /* Adapter */,
+				D1411D001E16D1E000284D13 /* Location */,
+				D1411CFF1E16D1CC00284D13 /* Network */,
+				D1411CFE1E16D19000284D13 /* DataSource */,
+				D1411CFD1E16D17E00284D13 /* PostProcessors */,
+				D1411CFC1E16D12500284D13 /* ViewControllers */,
+				D1411CFB1E16D11000284D13 /* MRAID */,
+				D1411CDC1E16D03800284D13 /* Model */,
 				D180EE1D1E16C835007DBADD /* TappxFramework.swift */,
 				D180EE061E16C4EA007DBADD /* TappxFramework.h */,
 				D180EE081E16C4EA007DBADD /* Info.plist */,
@@ -182,6 +411,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1411D291E16D34500284D13 /* TappxInterstitialView.xib in Resources */,
+				D1411D231E16D34500284D13 /* TappxBannerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +420,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1411D2A1E16D34500284D13 /* TappxInterstitialView.xib in Resources */,
+				D1411D241E16D34500284D13 /* TappxBannerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +432,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1411D4A1E16D3B300284D13 /* String+URL.swift in Sources */,
+				D1411CE91E16D09E00284D13 /* Result.swift in Sources */,
+				D1411D331E16D39A00284D13 /* Request.swift in Sources */,
+				D1411D141E16D32E00284D13 /* DataSource.swift in Sources */,
+				D1411D4E1E16D3B300284D13 /* UIGestureRecognizer+Action.swift in Sources */,
+				D1411D4C1E16D3B300284D13 /* Dictionary+URL.swift in Sources */,
+				D1411D161E16D32E00284D13 /* TappxSignaler.swift in Sources */,
+				D1411CED1E16D09E00284D13 /* TappxBanner.swift in Sources */,
+				D1411D071E16D31600284D13 /* TappxMRAIDServiceDelegate.swift in Sources */,
+				D1411D1F1E16D34500284D13 /* TappxBannerViewController.swift in Sources */,
+				D1411CE71E16D09E00284D13 /* TappxMediator.swift in Sources */,
+				D1411D461E16D3B300284D13 /* UIView+Nib.swift in Sources */,
+				D1411CEB1E16D09E00284D13 /* Future.swift in Sources */,
+				D1411CF71E16D09E00284D13 /* TappxSettings.swift in Sources */,
+				D1411D351E16D39A00284D13 /* TappxRequest.swift in Sources */,
+				D1411D481E16D3B300284D13 /* NSURLSessionConfiguration+Protocols.swift in Sources */,
+				D1411CF11E16D09E00284D13 /* TappxQueryStringParameters.swift in Sources */,
+				D1411D3F1E16D3A900284D13 /* TappxAdapter.swift in Sources */,
+				D1411D371E16D39A00284D13 /* NetworkController.swift in Sources */,
+				D1411D271E16D34500284D13 /* TappxInterstitialView.swift in Sources */,
+				D1411D211E16D34500284D13 /* TappxBannerView.swift in Sources */,
+				D1411CF91E16D09E00284D13 /* TappxRequestInfo.swift in Sources */,
+				D1411CF31E16D09E00284D13 /* TappxPostBodyParameters.swift in Sources */,
+				D1411D051E16D31600284D13 /* TappxMRAIDParser.swift in Sources */,
+				D1411D391E16D39A00284D13 /* Reachable.swift in Sources */,
+				D1411D0C1E16D32600284D13 /* TappxPostProcessor.swift in Sources */,
+				D1411D101E16D32600284D13 /* TappxMediationPostProcessor.swift in Sources */,
+				D1411CF51E16D09E00284D13 /* ResponseHeaders.swift in Sources */,
+				D1411D3C1E16D3A000284D13 /* TappxLocationManager.swift in Sources */,
+				D1411D2B1E16D34500284D13 /* TappxCloseButton.swift in Sources */,
+				D1411D0E1E16D32600284D13 /* TappxPassbackPostProcessor.swift in Sources */,
 				D180EE1E1E16C835007DBADD /* TappxFramework.swift in Sources */,
+				D1411D251E16D34500284D13 /* TappxInterstitialViewController.swift in Sources */,
+				D1411CEF1E16D09E00284D13 /* TappxInterstitial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +473,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1411D3D1E16D3A000284D13 /* TappxLocationManager.swift in Sources */,
+				D1411D201E16D34500284D13 /* TappxBannerViewController.swift in Sources */,
+				D1411D111E16D32600284D13 /* TappxMediationPostProcessor.swift in Sources */,
 				D180EE1F1E16C835007DBADD /* TappxFramework.swift in Sources */,
+				D1411D491E16D3B300284D13 /* NSURLSessionConfiguration+Protocols.swift in Sources */,
+				D1411D281E16D34500284D13 /* TappxInterstitialView.swift in Sources */,
+				D1411D171E16D32E00284D13 /* TappxSignaler.swift in Sources */,
+				D1411D4F1E16D3B300284D13 /* UIGestureRecognizer+Action.swift in Sources */,
+				D1411D221E16D34500284D13 /* TappxBannerView.swift in Sources */,
+				D1411CF01E16D09E00284D13 /* TappxInterstitial.swift in Sources */,
+				D1411CF21E16D09E00284D13 /* TappxQueryStringParameters.swift in Sources */,
+				D1411D2C1E16D34500284D13 /* TappxCloseButton.swift in Sources */,
+				D1411CEE1E16D09E00284D13 /* TappxBanner.swift in Sources */,
+				D1411CE81E16D09E00284D13 /* TappxMediator.swift in Sources */,
+				D1411CF61E16D09E00284D13 /* ResponseHeaders.swift in Sources */,
+				D1411D341E16D39A00284D13 /* Request.swift in Sources */,
+				D1411D261E16D34500284D13 /* TappxInterstitialViewController.swift in Sources */,
+				D1411D401E16D3A900284D13 /* TappxAdapter.swift in Sources */,
+				D1411CF41E16D09E00284D13 /* TappxPostBodyParameters.swift in Sources */,
+				D1411CFA1E16D09E00284D13 /* TappxRequestInfo.swift in Sources */,
+				D1411CEA1E16D09E00284D13 /* Result.swift in Sources */,
+				D1411D061E16D31600284D13 /* TappxMRAIDParser.swift in Sources */,
+				D1411D081E16D31600284D13 /* TappxMRAIDServiceDelegate.swift in Sources */,
+				D1411D361E16D39A00284D13 /* TappxRequest.swift in Sources */,
+				D1411D151E16D32E00284D13 /* DataSource.swift in Sources */,
+				D1411D3A1E16D39A00284D13 /* Reachable.swift in Sources */,
+				D1411CEC1E16D09E00284D13 /* Future.swift in Sources */,
+				D1411D4B1E16D3B300284D13 /* String+URL.swift in Sources */,
+				D1411D0F1E16D32600284D13 /* TappxPassbackPostProcessor.swift in Sources */,
 				D180EE131E16C4EA007DBADD /* TappxFrameworkTests.swift in Sources */,
+				D1411D471E16D3B300284D13 /* UIView+Nib.swift in Sources */,
+				D1411D0D1E16D32600284D13 /* TappxPostProcessor.swift in Sources */,
+				D1411CF81E16D09E00284D13 /* TappxSettings.swift in Sources */,
+				D1411D381E16D39A00284D13 /* NetworkController.swift in Sources */,
+				D1411D4D1E16D3B300284D13 /* Dictionary+URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
