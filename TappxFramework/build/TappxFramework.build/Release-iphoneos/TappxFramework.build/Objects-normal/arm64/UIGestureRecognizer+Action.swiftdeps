@@ -1,0 +1,131 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "CE14TappxFrameworkCSo19UIGestureRecognizerP33_7671D912BB03156F42E5945B3D74A60013GestureAction"
+- "VE14TappxFrameworkCSo19UIGestureRecognizerP33_7671D912BB03156F42E5945B3D74A60014AssociatedKeys"
+provides-member:
+- ["CSo19UIGestureRecognizer", ""]
+- ["CE14TappxFrameworkCSo19UIGestureRecognizerP33_7671D912BB03156F42E5945B3D74A60013GestureAction", ""]
+- ["VE14TappxFrameworkCSo19UIGestureRecognizerP33_7671D912BB03156F42E5945B3D74A60014AssociatedKeys", ""]
+- ["CSo19UIGestureRecognizer", "init"]
+provides-dynamic-lookup:
+- "handleAction"
+depends-top-level:
+- "UIGestureRecognizer"
+- "Void"
+- "StringLiteralType"
+- !private "objc_setAssociatedObject"
+- !private "objc_getAssociatedObject"
+depends-member:
+- !private ["Ps9AnyObject", "AssociatedKeys"]
+- !private ["Ps9AnyObject", "GestureAction"]
+- !private ["Ps9AnyObject", "action"]
+- !private ["Ps9AnyObject", "addTarget"]
+- ["Ps9AnyObject", "gestureAction"]
+- ["Ps9AnyObject", "handleAction"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "objc_getAssociatedObject"]
+- !private ["Ps9AnyObject", "objc_setAssociatedObject"]
+- !private ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "AssociatedKeys"]
+- !private ["Ps11CVarArgType", "GestureAction"]
+- !private ["Ps11CVarArgType", "addTarget"]
+- ["Ps11CVarArgType", "gestureAction"]
+- ["Ps11CVarArgType", "handleAction"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "objc_getAssociatedObject"]
+- !private ["Ps11CVarArgType", "objc_setAssociatedObject"]
+- !private ["Ps28CustomDebugStringConvertible", "AssociatedKeys"]
+- !private ["Ps28CustomDebugStringConvertible", "GestureAction"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- ["Ps28CustomDebugStringConvertible", "gestureAction"]
+- ["Ps28CustomDebugStringConvertible", "handleAction"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_getAssociatedObject"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_setAssociatedObject"]
+- !private ["Ps23CustomStringConvertible", "AssociatedKeys"]
+- !private ["Ps23CustomStringConvertible", "GestureAction"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- ["Ps23CustomStringConvertible", "gestureAction"]
+- ["Ps23CustomStringConvertible", "handleAction"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "objc_getAssociatedObject"]
+- !private ["Ps23CustomStringConvertible", "objc_setAssociatedObject"]
+- !private ["Ps9Equatable", "AssociatedKeys"]
+- !private ["Ps9Equatable", "GestureAction"]
+- !private ["Ps9Equatable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["Ps9Equatable", "addTarget"]
+- ["Ps9Equatable", "gestureAction"]
+- ["Ps9Equatable", "handleAction"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "objc_getAssociatedObject"]
+- !private ["Ps9Equatable", "objc_setAssociatedObject"]
+- !private ["Ps8Hashable", "AssociatedKeys"]
+- !private ["Ps8Hashable", "GestureAction"]
+- !private ["Ps8Hashable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["Ps8Hashable", "addTarget"]
+- ["Ps8Hashable", "gestureAction"]
+- ["Ps8Hashable", "handleAction"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "objc_getAssociatedObject"]
+- !private ["Ps8Hashable", "objc_setAssociatedObject"]
+- !private ["SQ", "deinit"]
+- !private ["CSo8NSObject", "AssociatedKeys"]
+- ["CSo8NSObject", "GestureAction"]
+- ["CSo8NSObject", "UIGestureRecognizer"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addTarget"]
+- ["CSo8NSObject", "gestureAction"]
+- ["CSo8NSObject", "handleAction"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "objc_getAssociatedObject"]
+- !private ["CSo8NSObject", "objc_setAssociatedObject"]
+- !private ["PSo16NSObjectProtocol", "AssociatedKeys"]
+- !private ["PSo16NSObjectProtocol", "GestureAction"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- ["PSo16NSObjectProtocol", "gestureAction"]
+- ["PSo16NSObjectProtocol", "handleAction"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "objc_getAssociatedObject"]
+- !private ["PSo16NSObjectProtocol", "objc_setAssociatedObject"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["CSo19UIGestureRecognizer", "AssociatedKeys"]
+- ["CSo19UIGestureRecognizer", "GestureAction"]
+- ["CSo19UIGestureRecognizer", "UIGestureRecognizer"]
+- ["CSo19UIGestureRecognizer", "Void"]
+- !private ["CSo19UIGestureRecognizer", "addTarget"]
+- !private ["CSo19UIGestureRecognizer", "gestureAction"]
+- !private ["CSo19UIGestureRecognizer", "handleAction"]
+- ["CSo19UIGestureRecognizer", "init"]
+- !private ["CSo19UIGestureRecognizer", "objc_getAssociatedObject"]
+- !private ["CSo19UIGestureRecognizer", "objc_setAssociatedObject"]
+- !private ["OSC22objc_AssociationPolicy", "OBJC_ASSOCIATION_RETAIN"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "SQ"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- "CSo19UIGestureRecognizer"
+- !private "OSC22objc_AssociationPolicy"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/dalarcon/Development/4Crew/TappxFrameworkWorkspace/TappxFramework/TappxFramework/TappxFramework.h"
+- "/Users/dalarcon/Development/4Crew/TappxFrameworkWorkspace/TappxFramework/build/TappxFramework.build/Release-iphoneos/TappxFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "7249ec7c8947cc6c21fe445593f45bf7"

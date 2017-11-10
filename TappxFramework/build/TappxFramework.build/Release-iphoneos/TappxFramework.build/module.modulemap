@@ -1,0 +1,10 @@
+framework module TappxFramework {
+  umbrella header "TappxFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module TappxFramework.Swift {
+    header "TappxFramework-Swift.h"
+}

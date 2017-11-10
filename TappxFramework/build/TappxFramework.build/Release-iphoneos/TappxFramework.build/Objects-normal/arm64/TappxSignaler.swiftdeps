@@ -1,0 +1,1002 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BannerFuture"
+- "InterstitialFuture"
+- "EventFuture"
+- "BannerResult"
+- "InterstitialResult"
+- "EventResult"
+- "TappxError"
+- "TappxSignaler"
+provides-nominal:
+- "O14TappxFramework10TappxError"
+- "C14TappxFramework13TappxSignaler"
+provides-member:
+- ["O14TappxFramework10TappxError", ""]
+- ["C14TappxFramework13TappxSignaler", ""]
+- ["O14TappxFramework10TappxError", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "BannerResult"
+- "TappxBanner"
+- "EventFuture"
+- !private "<"
+- "ErrorType"
+- !private "TappxPostBodyParameters"
+- !private "TappxMediatorStep"
+- "EventResult"
+- "NSURL"
+- !private ">"
+- !private "NSLocalizedString"
+- !private "print"
+- !private "TappxMediator"
+- !private "TappxQueryStringParameters"
+- "BooleanLiteralType"
+- "BannerForcedSize"
+- "InterstitialResult"
+- "NSObject"
+- !private "NSUTF8StringEncoding"
+- !private "->>"
+- "TappxSettings"
+- "InterstitialForcedSize"
+- !private "objc_sync_enter"
+- !private "??"
+- !private "TappxRequest"
+- !private "TappxAdvertisement"
+- !private "Int"
+- !private "UIScreen"
+- "TappxInterstitial"
+- "NetworkController"
+- "TappxError"
+- !private "TappxMediationPostProcessor"
+- !private "StringLiteralType"
+- "QueryAdType"
+- "Bool"
+- !private "NSData"
+- "InterstitialFuture"
+- "String"
+- "Result"
+- !private "+"
+- !private "TappxPassbackPostProcessor"
+- "TappxSignaler"
+- !private "NSError"
+- "BannerFuture"
+- "Future"
+- "CustomStringConvertible"
+- !private "TappxResponseType"
+- !private "TappxFramework"
+- !private "objc_sync_exit"
+- !private "ResponseHeaders"
+depends-member:
+- !private ["Ps9AnyObject", "Future"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "NSUTF8StringEncoding"]
+- ["Ps9AnyObject", "NetworkController"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "TappxBanner"]
+- !private ["Ps9AnyObject", "TappxError"]
+- !private ["Ps9AnyObject", "TappxFramework"]
+- !private ["Ps9AnyObject", "TappxInterstitial"]
+- !private ["Ps9AnyObject", "TappxMediationPostProcessor"]
+- !private ["Ps9AnyObject", "TappxPassbackPostProcessor"]
+- !private ["Ps9AnyObject", "TappxPostBodyParameters"]
+- !private ["Ps9AnyObject", "TappxQueryStringParameters"]
+- !private ["Ps9AnyObject", "UIScreen"]
+- !private ["Ps9AnyObject", "adapter"]
+- ["Ps9AnyObject", "banner"]
+- ["Ps9AnyObject", "bannerFuture"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "clientId"]
+- ["Ps9AnyObject", "controller"]
+- !private ["Ps9AnyObject", "data"]
+- ["Ps9AnyObject", "event"]
+- ["Ps9AnyObject", "eventFuture"]
+- ["Ps9AnyObject", "futureAsyncMediator"]
+- ["Ps9AnyObject", "futureSyncMediator"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "interstitial"]
+- ["Ps9AnyObject", "interstitialFuture"]
+- !private ["Ps9AnyObject", "keywords"]
+- !private ["Ps9AnyObject", "lastPosition"]
+- !private ["Ps9AnyObject", "localizedDescription"]
+- !private ["Ps9AnyObject", "mainScreen"]
+- !private ["Ps9AnyObject", "mediation"]
+- ["Ps9AnyObject", "mediationFuture"]
+- ["Ps9AnyObject", "mediator"]
+- !private ["Ps9AnyObject", "objc_sync_enter"]
+- !private ["Ps9AnyObject", "objc_sync_exit"]
+- ["Ps9AnyObject", "postProcess"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", "startAdapter"]
+- ["Ps9AnyObject", "stepFuture"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "joinWithSeparator"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- !private ["Ps23ArrayLiteralConvertible", "joinWithSeparator"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["O14TappxFramework16BannerForcedSize", "deinit"]
+- !private ["O14TappxFramework16BannerForcedSize", "rawValue"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "init"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "Future"]
+- !private ["Ps11CVarArgType", "Int"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSUTF8StringEncoding"]
+- ["Ps11CVarArgType", "NetworkController"]
+- !private ["Ps11CVarArgType", "String"]
+- !private ["Ps11CVarArgType", "TappxBanner"]
+- !private ["Ps11CVarArgType", "TappxError"]
+- !private ["Ps11CVarArgType", "TappxFramework"]
+- !private ["Ps11CVarArgType", "TappxInterstitial"]
+- !private ["Ps11CVarArgType", "TappxMediationPostProcessor"]
+- !private ["Ps11CVarArgType", "TappxPassbackPostProcessor"]
+- !private ["Ps11CVarArgType", "TappxPostBodyParameters"]
+- !private ["Ps11CVarArgType", "TappxQueryStringParameters"]
+- !private ["Ps11CVarArgType", "UIScreen"]
+- !private ["Ps11CVarArgType", "adapter"]
+- ["Ps11CVarArgType", "banner"]
+- ["Ps11CVarArgType", "bannerFuture"]
+- !private ["Ps11CVarArgType", "bounds"]
+- !private ["Ps11CVarArgType", "clientId"]
+- ["Ps11CVarArgType", "controller"]
+- !private ["Ps11CVarArgType", "data"]
+- ["Ps11CVarArgType", "event"]
+- ["Ps11CVarArgType", "eventFuture"]
+- ["Ps11CVarArgType", "futureAsyncMediator"]
+- ["Ps11CVarArgType", "futureSyncMediator"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "interstitial"]
+- ["Ps11CVarArgType", "interstitialFuture"]
+- !private ["Ps11CVarArgType", "lastPosition"]
+- !private ["Ps11CVarArgType", "localizedDescription"]
+- !private ["Ps11CVarArgType", "mainScreen"]
+- ["Ps11CVarArgType", "mediationFuture"]
+- ["Ps11CVarArgType", "mediator"]
+- !private ["Ps11CVarArgType", "objc_sync_enter"]
+- !private ["Ps11CVarArgType", "objc_sync_exit"]
+- ["Ps11CVarArgType", "postProcess"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "sharedInstance"]
+- ["Ps11CVarArgType", "startAdapter"]
+- ["Ps11CVarArgType", "stepFuture"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps14CollectionType", "joinWithSeparator"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Future"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUTF8StringEncoding"]
+- ["Ps28CustomDebugStringConvertible", "NetworkController"]
+- !private ["Ps28CustomDebugStringConvertible", "None"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "TappxBanner"]
+- !private ["Ps28CustomDebugStringConvertible", "TappxError"]
+- !private ["Ps28CustomDebugStringConvertible", "TappxFramework"]
+- !private ["Ps28CustomDebugStringConvertible", "TappxInterstitial"]
+- !private ["Ps28CustomDebugStringConvertible", "TappxMediationPostProcessor"]
+- !private ["Ps28CustomDebugStringConvertible", "TappxPassbackPostProcessor"]
+- !private ["Ps28CustomDebugStringConvertible", "TappxPostBodyParameters"]
+- !private ["Ps28CustomDebugStringConvertible", "TappxQueryStringParameters"]
+- !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "adapter"]
+- ["Ps28CustomDebugStringConvertible", "banner"]
+- ["Ps28CustomDebugStringConvertible", "bannerFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "clientId"]
+- ["Ps28CustomDebugStringConvertible", "controller"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- ["Ps28CustomDebugStringConvertible", "event"]
+- ["Ps28CustomDebugStringConvertible", "eventFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "failure"]
+- ["Ps28CustomDebugStringConvertible", "futureAsyncMediator"]
+- ["Ps28CustomDebugStringConvertible", "futureSyncMediator"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "interstitial"]
+- ["Ps28CustomDebugStringConvertible", "interstitialFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "joinWithSeparator"]
+- !private ["Ps28CustomDebugStringConvertible", "lastPosition"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "mainScreen"]
+- ["Ps28CustomDebugStringConvertible", "mediationFuture"]
+- ["Ps28CustomDebugStringConvertible", "mediator"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_sync_enter"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_sync_exit"]
+- ["Ps28CustomDebugStringConvertible", "postProcess"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- ["Ps28CustomDebugStringConvertible", "startAdapter"]
+- ["Ps28CustomDebugStringConvertible", "stepFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "success"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Future"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "NSLocalizedString"]
+- !private ["Ps23CustomStringConvertible", "NSUTF8StringEncoding"]
+- ["Ps23CustomStringConvertible", "NetworkController"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "TappxBanner"]
+- !private ["Ps23CustomStringConvertible", "TappxError"]
+- !private ["Ps23CustomStringConvertible", "TappxFramework"]
+- !private ["Ps23CustomStringConvertible", "TappxInterstitial"]
+- !private ["Ps23CustomStringConvertible", "TappxMediationPostProcessor"]
+- !private ["Ps23CustomStringConvertible", "TappxPassbackPostProcessor"]
+- !private ["Ps23CustomStringConvertible", "TappxPostBodyParameters"]
+- !private ["Ps23CustomStringConvertible", "TappxQueryStringParameters"]
+- !private ["Ps23CustomStringConvertible", "UIScreen"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "_code"]
+- ["Ps23CustomStringConvertible", "_domain"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "adapter"]
+- ["Ps23CustomStringConvertible", "banner"]
+- ["Ps23CustomStringConvertible", "bannerFuture"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "clientId"]
+- ["Ps23CustomStringConvertible", "controller"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "event"]
+- ["Ps23CustomStringConvertible", "eventFuture"]
+- !private ["Ps23CustomStringConvertible", "failure"]
+- ["Ps23CustomStringConvertible", "futureAsyncMediator"]
+- ["Ps23CustomStringConvertible", "futureSyncMediator"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "interstitial"]
+- ["Ps23CustomStringConvertible", "interstitialFuture"]
+- !private ["Ps23CustomStringConvertible", "joinWithSeparator"]
+- !private ["Ps23CustomStringConvertible", "lastPosition"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- !private ["Ps23CustomStringConvertible", "mainScreen"]
+- ["Ps23CustomStringConvertible", "mediation"]
+- ["Ps23CustomStringConvertible", "mediationFuture"]
+- ["Ps23CustomStringConvertible", "mediator"]
+- ["Ps23CustomStringConvertible", "noData"]
+- !private ["Ps23CustomStringConvertible", "objc_sync_enter"]
+- !private ["Ps23CustomStringConvertible", "objc_sync_exit"]
+- ["Ps23CustomStringConvertible", "offline"]
+- ["Ps23CustomStringConvertible", "passback"]
+- ["Ps23CustomStringConvertible", "postProcess"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- ["Ps23CustomStringConvertible", "startAdapter"]
+- ["Ps23CustomStringConvertible", "stepFuture"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "success"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Future"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSUTF8StringEncoding"]
+- ["Ps9Equatable", "NetworkController"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "TappxBanner"]
+- !private ["Ps9Equatable", "TappxError"]
+- !private ["Ps9Equatable", "TappxFramework"]
+- !private ["Ps9Equatable", "TappxInterstitial"]
+- !private ["Ps9Equatable", "TappxMediationPostProcessor"]
+- !private ["Ps9Equatable", "TappxPassbackPostProcessor"]
+- !private ["Ps9Equatable", "TappxPostBodyParameters"]
+- !private ["Ps9Equatable", "TappxQueryStringParameters"]
+- !private ["Ps9Equatable", "UIScreen"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "adapter"]
+- ["Ps9Equatable", "banner"]
+- ["Ps9Equatable", "bannerFuture"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "clientId"]
+- ["Ps9Equatable", "controller"]
+- !private ["Ps9Equatable", "data"]
+- ["Ps9Equatable", "event"]
+- ["Ps9Equatable", "eventFuture"]
+- ["Ps9Equatable", "futureAsyncMediator"]
+- ["Ps9Equatable", "futureSyncMediator"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "interstitial"]
+- ["Ps9Equatable", "interstitialFuture"]
+- !private ["Ps9Equatable", "lastPosition"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- !private ["Ps9Equatable", "mainScreen"]
+- ["Ps9Equatable", "mediationFuture"]
+- ["Ps9Equatable", "mediator"]
+- !private ["Ps9Equatable", "mraid1"]
+- !private ["Ps9Equatable", "mraid2"]
+- !private ["Ps9Equatable", "objc_sync_enter"]
+- !private ["Ps9Equatable", "objc_sync_exit"]
+- !private ["Ps9Equatable", "passback"]
+- ["Ps9Equatable", "postProcess"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- ["Ps9Equatable", "startAdapter"]
+- ["Ps9Equatable", "stepFuture"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "NSLocalizedString"]
+- !private ["Ps9ErrorType", "TappxError"]
+- ["Ps9ErrorType", "_code"]
+- ["Ps9ErrorType", "_domain"]
+- ["Ps9ErrorType", "description"]
+- !private ["Ps9ErrorType", "localizedDescription"]
+- ["Ps9ErrorType", "mediation"]
+- ["Ps9ErrorType", "noData"]
+- ["Ps9ErrorType", "offline"]
+- ["Ps9ErrorType", "passback"]
+- ["Ps9ErrorType", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "init"]
+- !private ["V14TappxFramework6Future", "deinit"]
+- !private ["V14TappxFramework6Future", "init"]
+- !private ["V14TappxFramework6Future", "start"]
+- !private ["P14TappxFramework10FutureType", "init"]
+- !private ["P14TappxFramework10FutureType", "start"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "Future"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSUTF8StringEncoding"]
+- ["Ps8Hashable", "NetworkController"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "TappxBanner"]
+- !private ["Ps8Hashable", "TappxError"]
+- !private ["Ps8Hashable", "TappxFramework"]
+- !private ["Ps8Hashable", "TappxInterstitial"]
+- !private ["Ps8Hashable", "TappxMediationPostProcessor"]
+- !private ["Ps8Hashable", "TappxPassbackPostProcessor"]
+- !private ["Ps8Hashable", "TappxPostBodyParameters"]
+- !private ["Ps8Hashable", "TappxQueryStringParameters"]
+- !private ["Ps8Hashable", "UIScreen"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "adapter"]
+- ["Ps8Hashable", "banner"]
+- ["Ps8Hashable", "bannerFuture"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "clientId"]
+- ["Ps8Hashable", "controller"]
+- !private ["Ps8Hashable", "data"]
+- ["Ps8Hashable", "event"]
+- ["Ps8Hashable", "eventFuture"]
+- ["Ps8Hashable", "futureAsyncMediator"]
+- ["Ps8Hashable", "futureSyncMediator"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "interstitial"]
+- ["Ps8Hashable", "interstitialFuture"]
+- !private ["Ps8Hashable", "lastPosition"]
+- !private ["Ps8Hashable", "localizedDescription"]
+- !private ["Ps8Hashable", "mainScreen"]
+- ["Ps8Hashable", "mediationFuture"]
+- ["Ps8Hashable", "mediator"]
+- !private ["Ps8Hashable", "mraid1"]
+- !private ["Ps8Hashable", "mraid2"]
+- !private ["Ps8Hashable", "objc_sync_enter"]
+- !private ["Ps8Hashable", "objc_sync_exit"]
+- !private ["Ps8Hashable", "passback"]
+- ["Ps8Hashable", "postProcess"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- ["Ps8Hashable", "startAdapter"]
+- ["Ps8Hashable", "stepFuture"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "joinWithSeparator"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "init"]
+- !private ["O14TappxFramework22InterstitialForcedSize", "deinit"]
+- !private ["O14TappxFramework22InterstitialForcedSize", "rawValue"]
+- !private ["P14TappxFramework10JSONParser", "cn"]
+- !private ["P14TappxFramework10JSONParser", "mediation"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "count"]
+- !private ["Ps21MutableCollectionType", "joinWithSeparator"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "joinWithSeparator"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "count"]
+- !private ["Ps16MutableSliceable", "joinWithSeparator"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "BannerForcedSize"]
+- ["CSo8NSObject", "BannerFuture"]
+- !private ["CSo8NSObject", "BannerResult"]
+- !private ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "ErrorType"]
+- ["CSo8NSObject", "EventFuture"]
+- !private ["CSo8NSObject", "EventResult"]
+- !private ["CSo8NSObject", "Future"]
+- !private ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "InterstitialForcedSize"]
+- ["CSo8NSObject", "InterstitialFuture"]
+- !private ["CSo8NSObject", "InterstitialResult"]
+- !private ["CSo8NSObject", "NSData"]
+- !private ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "NSUTF8StringEncoding"]
+- ["CSo8NSObject", "NetworkController"]
+- ["CSo8NSObject", "QueryAdType"]
+- !private ["CSo8NSObject", "ResponseHeaders"]
+- !private ["CSo8NSObject", "Result"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "TappxAdvertisement"]
+- !private ["CSo8NSObject", "TappxBanner"]
+- !private ["CSo8NSObject", "TappxError"]
+- !private ["CSo8NSObject", "TappxFramework"]
+- !private ["CSo8NSObject", "TappxInterstitial"]
+- !private ["CSo8NSObject", "TappxMediationPostProcessor"]
+- !private ["CSo8NSObject", "TappxMediator"]
+- !private ["CSo8NSObject", "TappxMediatorStep"]
+- !private ["CSo8NSObject", "TappxPassbackPostProcessor"]
+- !private ["CSo8NSObject", "TappxPostBodyParameters"]
+- !private ["CSo8NSObject", "TappxQueryStringParameters"]
+- !private ["CSo8NSObject", "TappxRequest"]
+- !private ["CSo8NSObject", "TappxResponseType"]
+- ["CSo8NSObject", "TappxSettings"]
+- !private ["CSo8NSObject", "UIScreen"]
+- !private ["CSo8NSObject", "adapter"]
+- ["CSo8NSObject", "banner"]
+- ["CSo8NSObject", "bannerFuture"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "clientId"]
+- ["CSo8NSObject", "controller"]
+- !private ["CSo8NSObject", "data"]
+- ["CSo8NSObject", "event"]
+- ["CSo8NSObject", "eventFuture"]
+- ["CSo8NSObject", "futureAsyncMediator"]
+- ["CSo8NSObject", "futureSyncMediator"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "interstitial"]
+- ["CSo8NSObject", "interstitialFuture"]
+- !private ["CSo8NSObject", "lastPosition"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- !private ["CSo8NSObject", "mainScreen"]
+- ["CSo8NSObject", "mediationFuture"]
+- ["CSo8NSObject", "mediator"]
+- !private ["CSo8NSObject", "objc_sync_enter"]
+- !private ["CSo8NSObject", "objc_sync_exit"]
+- ["CSo8NSObject", "postProcess"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "startAdapter"]
+- ["CSo8NSObject", "stepFuture"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Future"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "NSUTF8StringEncoding"]
+- ["PSo16NSObjectProtocol", "NetworkController"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "TappxBanner"]
+- !private ["PSo16NSObjectProtocol", "TappxError"]
+- !private ["PSo16NSObjectProtocol", "TappxFramework"]
+- !private ["PSo16NSObjectProtocol", "TappxInterstitial"]
+- !private ["PSo16NSObjectProtocol", "TappxMediationPostProcessor"]
+- !private ["PSo16NSObjectProtocol", "TappxPassbackPostProcessor"]
+- !private ["PSo16NSObjectProtocol", "TappxPostBodyParameters"]
+- !private ["PSo16NSObjectProtocol", "TappxQueryStringParameters"]
+- !private ["PSo16NSObjectProtocol", "UIScreen"]
+- !private ["PSo16NSObjectProtocol", "adapter"]
+- ["PSo16NSObjectProtocol", "banner"]
+- ["PSo16NSObjectProtocol", "bannerFuture"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "clientId"]
+- ["PSo16NSObjectProtocol", "controller"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- ["PSo16NSObjectProtocol", "event"]
+- ["PSo16NSObjectProtocol", "eventFuture"]
+- ["PSo16NSObjectProtocol", "futureAsyncMediator"]
+- ["PSo16NSObjectProtocol", "futureSyncMediator"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "interstitial"]
+- ["PSo16NSObjectProtocol", "interstitialFuture"]
+- !private ["PSo16NSObjectProtocol", "lastPosition"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "mainScreen"]
+- ["PSo16NSObjectProtocol", "mediationFuture"]
+- ["PSo16NSObjectProtocol", "mediator"]
+- !private ["PSo16NSObjectProtocol", "objc_sync_enter"]
+- !private ["PSo16NSObjectProtocol", "objc_sync_exit"]
+- ["PSo16NSObjectProtocol", "postProcess"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", "startAdapter"]
+- ["PSo16NSObjectProtocol", "stepFuture"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSo24NSURLSessionDataDelegate", "data"]
+- ["PSo24NSURLSessionDataDelegate", "init"]
+- !private ["PSo20NSURLSessionDelegate", "data"]
+- ["PSo20NSURLSessionDelegate", "init"]
+- !private ["PSo24NSURLSessionTaskDelegate", "data"]
+- ["PSo24NSURLSessionTaskDelegate", "init"]
+- !private ["C14TappxFramework17NetworkController", "data"]
+- ["C14TappxFramework17NetworkController", "init"]
+- !private ["Ps21NilLiteralConvertible", "None"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "None"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["P14TappxFramework20PostBodyParameterSet", "defaultBodyParameters"]
+- !private ["P14TappxFramework20PostBodyParameterSet", "dsh"]
+- !private ["P14TappxFramework20PostBodyParameterSet", "dsw"]
+- !private ["P14TappxFramework20PostBodyParameterSet", "geo"]
+- !private ["P14TappxFramework20PostBodyParameterSet", "okw"]
+- !private ["O14TappxFramework11QueryAdType", "banner"]
+- !private ["O14TappxFramework11QueryAdType", "interstitial"]
+- !private ["P14TappxFramework17QueryParameterSet", "at"]
+- !private ["P14TappxFramework17QueryParameterSet", "fsz"]
+- !private ["P14TappxFramework17QueryParameterSet", "init"]
+- !private ["P14TappxFramework17QueryParameterSet", "k"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "init"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps30RangeReplaceableCollectionType", "joinWithSeparator"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps16RawRepresentable", "banner"]
+- !private ["Ps16RawRepresentable", "interstitial"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["P14TappxFramework9Reachable", "data"]
+- ["P14TappxFramework9Reachable", "init"]
+- !private ["P14TappxFramework7Request", "advertisement"]
+- !private ["P14TappxFramework7Request", "event"]
+- !private ["P14TappxFramework7Request", "type"]
+- !private ["O14TappxFramework6Result", "failure"]
+- !private ["O14TappxFramework6Result", "success"]
+- !private ["O14TappxFramework6Result", "value"]
+- !private ["P14TappxFramework10ResultType", "failure"]
+- !private ["P14TappxFramework10ResultType", "success"]
+- !private ["P14TappxFramework10ResultType", "value"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps12SequenceType", "joinWithSeparator"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "init"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["P14TappxFramework12TappxAdapter", "adapt"]
+- !private ["P14TappxFramework21TappxAdapterContainer", "adapter"]
+- !private ["P14TappxFramework21TappxAdapterContainer", "clientId"]
+- !private ["P14TappxFramework21TappxAdapterContainer", "lastPosition"]
+- !private ["P14TappxFramework21TappxAdapterContainer", "sharedInstance"]
+- !private ["P14TappxFramework18TappxAdvertisement", "html"]
+- !private ["P14TappxFramework18TappxAdvertisement", "init"]
+- !private ["P14TappxFramework18TappxAdvertisement", "type"]
+- !private ["C14TappxFramework11TappxBanner", "deinit"]
+- !private ["C14TappxFramework11TappxBanner", "init"]
+- !private ["O14TappxFramework10TappxError", "NSLocalizedString"]
+- ["O14TappxFramework10TappxError", "String"]
+- ["O14TappxFramework10TappxError", "TappxError"]
+- ["O14TappxFramework10TappxError", "_code"]
+- ["O14TappxFramework10TappxError", "_domain"]
+- ["O14TappxFramework10TappxError", "deinit"]
+- ["O14TappxFramework10TappxError", "description"]
+- ["O14TappxFramework10TappxError", "init"]
+- ["O14TappxFramework10TappxError", "mediation"]
+- ["O14TappxFramework10TappxError", "noData"]
+- ["O14TappxFramework10TappxError", "offline"]
+- ["O14TappxFramework10TappxError", "passback"]
+- !private ["C14TappxFramework14TappxFramework", "adapter"]
+- !private ["C14TappxFramework14TappxFramework", "clientId"]
+- !private ["C14TappxFramework14TappxFramework", "deinit"]
+- !private ["C14TappxFramework14TappxFramework", "lastPosition"]
+- !private ["C14TappxFramework14TappxFramework", "sharedInstance"]
+- !private ["C14TappxFramework17TappxInterstitial", "deinit"]
+- !private ["C14TappxFramework17TappxInterstitial", "init"]
+- !private ["C14TappxFramework27TappxMediationPostProcessor", "deinit"]
+- !private ["C14TappxFramework27TappxMediationPostProcessor", "init"]
+- !private ["C14TappxFramework27TappxMediationPostProcessor", "postProcess"]
+- !private ["C14TappxFramework13TappxMediator", "mediation"]
+- !private ["V14TappxFramework17TappxMediatorStep", "cn"]
+- !private ["C14TappxFramework26TappxPassbackPostProcessor", "deinit"]
+- !private ["C14TappxFramework26TappxPassbackPostProcessor", "init"]
+- !private ["C14TappxFramework26TappxPassbackPostProcessor", "postProcess"]
+- !private ["V14TappxFramework23TappxPostBodyParameters", "defaultBodyParameters"]
+- !private ["V14TappxFramework23TappxPostBodyParameters", "deinit"]
+- !private ["V14TappxFramework23TappxPostBodyParameters", "dsh"]
+- !private ["V14TappxFramework23TappxPostBodyParameters", "dsw"]
+- !private ["V14TappxFramework23TappxPostBodyParameters", "geo"]
+- !private ["V14TappxFramework23TappxPostBodyParameters", "okw"]
+- !private ["P14TappxFramework18TappxPostProcessor", "init"]
+- !private ["P14TappxFramework18TappxPostProcessor", "postProcess"]
+- !private ["V14TappxFramework26TappxQueryStringParameters", "at"]
+- !private ["V14TappxFramework26TappxQueryStringParameters", "deinit"]
+- !private ["V14TappxFramework26TappxQueryStringParameters", "fsz"]
+- !private ["V14TappxFramework26TappxQueryStringParameters", "init"]
+- !private ["V14TappxFramework26TappxQueryStringParameters", "k"]
+- !private ["O14TappxFramework12TappxRequest", "advertisement"]
+- !private ["O14TappxFramework12TappxRequest", "event"]
+- !private ["O14TappxFramework12TappxRequest", "type"]
+- !private ["O14TappxFramework17TappxResponseType", "mraid1"]
+- !private ["O14TappxFramework17TappxResponseType", "mraid2"]
+- !private ["O14TappxFramework17TappxResponseType", "passback"]
+- !private ["P14TappxFramework12TappxSetting", "adapter"]
+- !private ["P14TappxFramework12TappxSetting", "clientId"]
+- !private ["P14TappxFramework12TappxSetting", "lastPosition"]
+- !private ["P14TappxFramework12TappxSetting", "sharedInstance"]
+- !private ["C14TappxFramework13TappxSettings", "keywords"]
+- ["C14TappxFramework13TappxSignaler", "BannerForcedSize"]
+- ["C14TappxFramework13TappxSignaler", "BannerFuture"]
+- !private ["C14TappxFramework13TappxSignaler", "BannerResult"]
+- !private ["C14TappxFramework13TappxSignaler", "Bool"]
+- !private ["C14TappxFramework13TappxSignaler", "ErrorType"]
+- ["C14TappxFramework13TappxSignaler", "EventFuture"]
+- !private ["C14TappxFramework13TappxSignaler", "EventResult"]
+- !private ["C14TappxFramework13TappxSignaler", "Future"]
+- !private ["C14TappxFramework13TappxSignaler", "Int"]
+- ["C14TappxFramework13TappxSignaler", "InterstitialForcedSize"]
+- ["C14TappxFramework13TappxSignaler", "InterstitialFuture"]
+- !private ["C14TappxFramework13TappxSignaler", "InterstitialResult"]
+- !private ["C14TappxFramework13TappxSignaler", "NSData"]
+- !private ["C14TappxFramework13TappxSignaler", "NSError"]
+- ["C14TappxFramework13TappxSignaler", "NSURL"]
+- !private ["C14TappxFramework13TappxSignaler", "NSUTF8StringEncoding"]
+- ["C14TappxFramework13TappxSignaler", "NetworkController"]
+- ["C14TappxFramework13TappxSignaler", "QueryAdType"]
+- !private ["C14TappxFramework13TappxSignaler", "ResponseHeaders"]
+- !private ["C14TappxFramework13TappxSignaler", "Result"]
+- !private ["C14TappxFramework13TappxSignaler", "String"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxAdvertisement"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxBanner"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxError"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxFramework"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxInterstitial"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxMediationPostProcessor"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxMediator"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxMediatorStep"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxPassbackPostProcessor"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxPostBodyParameters"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxQueryStringParameters"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxRequest"]
+- !private ["C14TappxFramework13TappxSignaler", "TappxResponseType"]
+- ["C14TappxFramework13TappxSignaler", "TappxSettings"]
+- !private ["C14TappxFramework13TappxSignaler", "UIScreen"]
+- !private ["C14TappxFramework13TappxSignaler", "banner"]
+- ["C14TappxFramework13TappxSignaler", "bannerFuture"]
+- !private ["C14TappxFramework13TappxSignaler", "controller"]
+- ["C14TappxFramework13TappxSignaler", "deinit"]
+- !private ["C14TappxFramework13TappxSignaler", "event"]
+- ["C14TappxFramework13TappxSignaler", "eventFuture"]
+- !private ["C14TappxFramework13TappxSignaler", "futureAsyncMediator"]
+- !private ["C14TappxFramework13TappxSignaler", "futureSyncMediator"]
+- ["C14TappxFramework13TappxSignaler", "init"]
+- !private ["C14TappxFramework13TappxSignaler", "interstitial"]
+- ["C14TappxFramework13TappxSignaler", "interstitialFuture"]
+- ["C14TappxFramework13TappxSignaler", "mediationFuture"]
+- !private ["C14TappxFramework13TappxSignaler", "mediator"]
+- !private ["C14TappxFramework13TappxSignaler", "objc_sync_enter"]
+- !private ["C14TappxFramework13TappxSignaler", "objc_sync_exit"]
+- !private ["C14TappxFramework13TappxSignaler", "postProcess"]
+- !private ["C14TappxFramework13TappxSignaler", "print"]
+- !private ["C14TappxFramework13TappxSignaler", "startAdapter"]
+- !private ["C14TappxFramework13TappxSignaler", "stepFuture"]
+- !private ["CSo8UIScreen", "bounds"]
+- !private ["CSo8UIScreen", "mainScreen"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "mainScreen"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "count"]
+- !private ["Ps10_ArrayType", "joinWithSeparator"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "joinWithSeparator"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "init"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "joinWithSeparator"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "init"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "None"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "height"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "joinWithSeparator"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "width"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "O14TappxFramework16BannerForcedSize"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "VSC6CGRect"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps16ForwardIndexType"
+- !private "V14TappxFramework6Future"
+- !private "P14TappxFramework10FutureType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "O14TappxFramework22InterstitialForcedSize"
+- !private "P14TappxFramework10JSONParser"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "PSo24NSURLSessionDataDelegate"
+- "PSo20NSURLSessionDelegate"
+- "PSo24NSURLSessionTaskDelegate"
+- "C14TappxFramework17NetworkController"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "P14TappxFramework20PostBodyParameterSet"
+- !private "O14TappxFramework11QueryAdType"
+- !private "P14TappxFramework17QueryParameterSet"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- "P14TappxFramework9Reachable"
+- !private "P14TappxFramework7Request"
+- !private "O14TappxFramework6Result"
+- !private "P14TappxFramework10ResultType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "P14TappxFramework12TappxAdapter"
+- !private "P14TappxFramework21TappxAdapterContainer"
+- !private "P14TappxFramework18TappxAdvertisement"
+- !private "C14TappxFramework11TappxBanner"
+- "O14TappxFramework10TappxError"
+- !private "C14TappxFramework14TappxFramework"
+- !private "C14TappxFramework17TappxInterstitial"
+- !private "C14TappxFramework27TappxMediationPostProcessor"
+- !private "C14TappxFramework13TappxMediator"
+- !private "V14TappxFramework17TappxMediatorStep"
+- !private "C14TappxFramework26TappxPassbackPostProcessor"
+- !private "V14TappxFramework23TappxPostBodyParameters"
+- !private "P14TappxFramework18TappxPostProcessor"
+- !private "V14TappxFramework26TappxQueryStringParameters"
+- !private "O14TappxFramework12TappxRequest"
+- !private "O14TappxFramework17TappxResponseType"
+- !private "P14TappxFramework12TappxSetting"
+- !private "C14TappxFramework13TappxSettings"
+- "C14TappxFramework13TappxSignaler"
+- !private "CSo8UIScreen"
+- !private "PSo18UITraitEnvironment"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/dalarcon/Development/4Crew/TappxFrameworkWorkspace/TappxFramework/TappxFramework/TappxFramework.h"
+- "/Users/dalarcon/Development/4Crew/TappxFrameworkWorkspace/TappxFramework/build/TappxFramework.build/Release-iphoneos/TappxFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "7ebd1a01722b7406e5d202f95ad550f6"

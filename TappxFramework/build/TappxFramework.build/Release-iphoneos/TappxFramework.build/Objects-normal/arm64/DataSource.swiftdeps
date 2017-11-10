@@ -1,0 +1,514 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataSource"
+provides-nominal:
+- "C14TappxFramework10DataSource"
+provides-member:
+- ["C14TappxFramework10DataSource", ""]
+provides-dynamic-lookup:
+- "banner"
+- "lastUpdated"
+- "isUpdating"
+- "interstitial"
+- "error"
+depends-top-level:
+- "TappxBanner"
+- "NSURL"
+- !private "StringLiteralType"
+- "QueryAdType"
+- !private "NSLocalizedDescriptionKey"
+- "TappxSignaler"
+- "TappxInterstitial"
+- !private "dispatch_get_main_queue"
+- !private "-"
+- !private "UIDevice"
+- !private "=="
+- "NSObject"
+- !private "print"
+- "NSError"
+- "Bool"
+- "BooleanLiteralType"
+- "NSDate"
+- "ErrorType"
+- "BannerForcedSize"
+- "DataSource"
+- "Dictionary"
+- !private "dispatch_async"
+- "UInt"
+- "TappxSettings"
+- "InterstitialForcedSize"
+depends-member:
+- !private ["Ps9AnyObject", "NSDate"]
+- !private ["Ps9AnyObject", "NSError"]
+- !private ["Ps9AnyObject", "NSLocalizedDescriptionKey"]
+- ["Ps9AnyObject", "TappxSignaler"]
+- !private ["Ps9AnyObject", "UIDevice"]
+- ["Ps9AnyObject", "attempsLeft"]
+- ["Ps9AnyObject", "banner"]
+- !private ["Ps9AnyObject", "bannerFuture"]
+- !private ["Ps9AnyObject", "currentDevice"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "eventFuture"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "interstitial"]
+- !private ["Ps9AnyObject", "interstitialFuture"]
+- ["Ps9AnyObject", "interstitialSize"]
+- ["Ps9AnyObject", "isUpdating"]
+- ["Ps9AnyObject", "lastUpdated"]
+- !private ["Ps9AnyObject", "mediationFuture"]
+- !private ["Ps9AnyObject", "orientation"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "signaler"]
+- ["Ps9AnyObject", "tappxBanner"]
+- ["Ps9AnyObject", "tappxEvent"]
+- ["Ps9AnyObject", "tappxInterstitial"]
+- ["Ps9AnyObject", "tappxMediation"]
+- !private ["Ps9AnyObject", "userInterfaceIdiom"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "NSDate"]
+- !private ["Ps11CVarArgType", "NSError"]
+- !private ["Ps11CVarArgType", "NSLocalizedDescriptionKey"]
+- ["Ps11CVarArgType", "TappxSignaler"]
+- !private ["Ps11CVarArgType", "UIDevice"]
+- ["Ps11CVarArgType", "attempsLeft"]
+- ["Ps11CVarArgType", "banner"]
+- !private ["Ps11CVarArgType", "bannerFuture"]
+- !private ["Ps11CVarArgType", "currentDevice"]
+- !private ["Ps11CVarArgType", "dispatch_async"]
+- !private ["Ps11CVarArgType", "dispatch_get_main_queue"]
+- ["Ps11CVarArgType", "error"]
+- !private ["Ps11CVarArgType", "eventFuture"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "interstitial"]
+- !private ["Ps11CVarArgType", "interstitialFuture"]
+- ["Ps11CVarArgType", "interstitialSize"]
+- ["Ps11CVarArgType", "isUpdating"]
+- ["Ps11CVarArgType", "lastUpdated"]
+- !private ["Ps11CVarArgType", "mediationFuture"]
+- !private ["Ps11CVarArgType", "orientation"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "signaler"]
+- ["Ps11CVarArgType", "tappxBanner"]
+- ["Ps11CVarArgType", "tappxEvent"]
+- ["Ps11CVarArgType", "tappxInterstitial"]
+- ["Ps11CVarArgType", "tappxMediation"]
+- !private ["Ps11CVarArgType", "userInterfaceIdiom"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDate"]
+- !private ["Ps28CustomDebugStringConvertible", "NSError"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLocalizedDescriptionKey"]
+- ["Ps28CustomDebugStringConvertible", "None"]
+- ["Ps28CustomDebugStringConvertible", "TappxSignaler"]
+- !private ["Ps28CustomDebugStringConvertible", "UIDevice"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "attempsLeft"]
+- ["Ps28CustomDebugStringConvertible", "banner"]
+- !private ["Ps28CustomDebugStringConvertible", "bannerFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "currentDevice"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_get_main_queue"]
+- ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "eventFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "failure"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "interstitial"]
+- !private ["Ps28CustomDebugStringConvertible", "interstitialFuture"]
+- ["Ps28CustomDebugStringConvertible", "interstitialSize"]
+- ["Ps28CustomDebugStringConvertible", "isUpdating"]
+- ["Ps28CustomDebugStringConvertible", "lastUpdated"]
+- !private ["Ps28CustomDebugStringConvertible", "mediationFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "orientation"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "signaler"]
+- !private ["Ps28CustomDebugStringConvertible", "success"]
+- ["Ps28CustomDebugStringConvertible", "tappxBanner"]
+- ["Ps28CustomDebugStringConvertible", "tappxEvent"]
+- ["Ps28CustomDebugStringConvertible", "tappxInterstitial"]
+- ["Ps28CustomDebugStringConvertible", "tappxMediation"]
+- !private ["Ps28CustomDebugStringConvertible", "userInterfaceIdiom"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSDate"]
+- !private ["Ps23CustomStringConvertible", "NSError"]
+- !private ["Ps23CustomStringConvertible", "NSLocalizedDescriptionKey"]
+- ["Ps23CustomStringConvertible", "TappxSignaler"]
+- !private ["Ps23CustomStringConvertible", "UIDevice"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "attempsLeft"]
+- ["Ps23CustomStringConvertible", "banner"]
+- !private ["Ps23CustomStringConvertible", "bannerFuture"]
+- !private ["Ps23CustomStringConvertible", "currentDevice"]
+- !private ["Ps23CustomStringConvertible", "dispatch_async"]
+- !private ["Ps23CustomStringConvertible", "dispatch_get_main_queue"]
+- ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "eventFuture"]
+- !private ["Ps23CustomStringConvertible", "failure"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "interstitial"]
+- !private ["Ps23CustomStringConvertible", "interstitialFuture"]
+- ["Ps23CustomStringConvertible", "interstitialSize"]
+- ["Ps23CustomStringConvertible", "isUpdating"]
+- ["Ps23CustomStringConvertible", "lastUpdated"]
+- !private ["Ps23CustomStringConvertible", "mediationFuture"]
+- !private ["Ps23CustomStringConvertible", "orientation"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "signaler"]
+- !private ["Ps23CustomStringConvertible", "success"]
+- ["Ps23CustomStringConvertible", "tappxBanner"]
+- ["Ps23CustomStringConvertible", "tappxEvent"]
+- ["Ps23CustomStringConvertible", "tappxInterstitial"]
+- ["Ps23CustomStringConvertible", "tappxMediation"]
+- !private ["Ps23CustomStringConvertible", "userInterfaceIdiom"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C14TappxFramework10DataSource", "BannerForcedSize"]
+- ["C14TappxFramework10DataSource", "Bool"]
+- ["C14TappxFramework10DataSource", "ErrorType"]
+- ["C14TappxFramework10DataSource", "InterstitialForcedSize"]
+- ["C14TappxFramework10DataSource", "NSDate"]
+- ["C14TappxFramework10DataSource", "NSError"]
+- !private ["C14TappxFramework10DataSource", "NSLocalizedDescriptionKey"]
+- ["C14TappxFramework10DataSource", "NSURL"]
+- ["C14TappxFramework10DataSource", "QueryAdType"]
+- ["C14TappxFramework10DataSource", "TappxBanner"]
+- ["C14TappxFramework10DataSource", "TappxInterstitial"]
+- ["C14TappxFramework10DataSource", "TappxSettings"]
+- ["C14TappxFramework10DataSource", "TappxSignaler"]
+- !private ["C14TappxFramework10DataSource", "UIDevice"]
+- ["C14TappxFramework10DataSource", "UInt"]
+- !private ["C14TappxFramework10DataSource", "attempsLeft"]
+- ["C14TappxFramework10DataSource", "banner"]
+- ["C14TappxFramework10DataSource", "deinit"]
+- !private ["C14TappxFramework10DataSource", "dispatch_async"]
+- !private ["C14TappxFramework10DataSource", "dispatch_get_main_queue"]
+- ["C14TappxFramework10DataSource", "error"]
+- ["C14TappxFramework10DataSource", "init"]
+- ["C14TappxFramework10DataSource", "interstitial"]
+- !private ["C14TappxFramework10DataSource", "interstitialSize"]
+- ["C14TappxFramework10DataSource", "isUpdating"]
+- ["C14TappxFramework10DataSource", "lastUpdated"]
+- !private ["C14TappxFramework10DataSource", "print"]
+- !private ["C14TappxFramework10DataSource", "signaler"]
+- ["C14TappxFramework10DataSource", "tappxBanner"]
+- ["C14TappxFramework10DataSource", "tappxEvent"]
+- ["C14TappxFramework10DataSource", "tappxInterstitial"]
+- ["C14TappxFramework10DataSource", "tappxMediation"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "NSDate"]
+- !private ["Ps9Equatable", "NSError"]
+- !private ["Ps9Equatable", "NSLocalizedDescriptionKey"]
+- !private ["Ps9Equatable", "Pad"]
+- !private ["Ps9Equatable", "Phone"]
+- ["Ps9Equatable", "TappxSignaler"]
+- !private ["Ps9Equatable", "UIDevice"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "attempsLeft"]
+- ["Ps9Equatable", "banner"]
+- !private ["Ps9Equatable", "bannerFuture"]
+- !private ["Ps9Equatable", "currentDevice"]
+- !private ["Ps9Equatable", "dispatch_async"]
+- !private ["Ps9Equatable", "dispatch_get_main_queue"]
+- ["Ps9Equatable", "error"]
+- !private ["Ps9Equatable", "eventFuture"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "interstitial"]
+- !private ["Ps9Equatable", "interstitialFuture"]
+- ["Ps9Equatable", "interstitialSize"]
+- !private ["Ps9Equatable", "isPortrait"]
+- ["Ps9Equatable", "isUpdating"]
+- ["Ps9Equatable", "lastUpdated"]
+- !private ["Ps9Equatable", "mediationFuture"]
+- !private ["Ps9Equatable", "orientation"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "signaler"]
+- ["Ps9Equatable", "tappxBanner"]
+- ["Ps9Equatable", "tappxEvent"]
+- ["Ps9Equatable", "tappxInterstitial"]
+- ["Ps9Equatable", "tappxMediation"]
+- !private ["Ps9Equatable", "userInterfaceIdiom"]
+- !private ["Ps9Equatable", "x1024y768"]
+- !private ["Ps9Equatable", "x320y480"]
+- !private ["Ps9Equatable", "x480y320"]
+- !private ["Ps9Equatable", "x768y1024"]
+- ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["V14TappxFramework6Future", "start"]
+- !private ["P14TappxFramework10FutureType", "start"]
+- !private ["Ps8Hashable", "NSDate"]
+- !private ["Ps8Hashable", "NSError"]
+- !private ["Ps8Hashable", "NSLocalizedDescriptionKey"]
+- !private ["Ps8Hashable", "Pad"]
+- !private ["Ps8Hashable", "Phone"]
+- ["Ps8Hashable", "TappxSignaler"]
+- !private ["Ps8Hashable", "UIDevice"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "attempsLeft"]
+- ["Ps8Hashable", "banner"]
+- !private ["Ps8Hashable", "bannerFuture"]
+- !private ["Ps8Hashable", "currentDevice"]
+- !private ["Ps8Hashable", "dispatch_async"]
+- !private ["Ps8Hashable", "dispatch_get_main_queue"]
+- ["Ps8Hashable", "error"]
+- !private ["Ps8Hashable", "eventFuture"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "interstitial"]
+- !private ["Ps8Hashable", "interstitialFuture"]
+- ["Ps8Hashable", "interstitialSize"]
+- !private ["Ps8Hashable", "isPortrait"]
+- ["Ps8Hashable", "isUpdating"]
+- ["Ps8Hashable", "lastUpdated"]
+- !private ["Ps8Hashable", "mediationFuture"]
+- !private ["Ps8Hashable", "orientation"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "signaler"]
+- ["Ps8Hashable", "tappxBanner"]
+- ["Ps8Hashable", "tappxEvent"]
+- ["Ps8Hashable", "tappxInterstitial"]
+- ["Ps8Hashable", "tappxMediation"]
+- !private ["Ps8Hashable", "userInterfaceIdiom"]
+- !private ["Ps8Hashable", "x1024y768"]
+- !private ["Ps8Hashable", "x320y480"]
+- !private ["Ps8Hashable", "x480y320"]
+- !private ["Ps8Hashable", "x768y1024"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["O14TappxFramework22InterstitialForcedSize", "x1024y768"]
+- !private ["O14TappxFramework22InterstitialForcedSize", "x320y480"]
+- !private ["O14TappxFramework22InterstitialForcedSize", "x480y320"]
+- !private ["O14TappxFramework22InterstitialForcedSize", "x768y1024"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo7NSError", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "BannerForcedSize"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "ErrorType"]
+- ["CSo8NSObject", "InterstitialForcedSize"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSLocalizedDescriptionKey"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "QueryAdType"]
+- ["CSo8NSObject", "TappxBanner"]
+- ["CSo8NSObject", "TappxInterstitial"]
+- ["CSo8NSObject", "TappxSettings"]
+- ["CSo8NSObject", "TappxSignaler"]
+- !private ["CSo8NSObject", "UIDevice"]
+- ["CSo8NSObject", "UInt"]
+- ["CSo8NSObject", "attempsLeft"]
+- ["CSo8NSObject", "banner"]
+- !private ["CSo8NSObject", "bannerFuture"]
+- !private ["CSo8NSObject", "currentDevice"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- ["CSo8NSObject", "error"]
+- !private ["CSo8NSObject", "eventFuture"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "interstitial"]
+- !private ["CSo8NSObject", "interstitialFuture"]
+- ["CSo8NSObject", "interstitialSize"]
+- ["CSo8NSObject", "isUpdating"]
+- ["CSo8NSObject", "lastUpdated"]
+- !private ["CSo8NSObject", "mediationFuture"]
+- !private ["CSo8NSObject", "orientation"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "signaler"]
+- ["CSo8NSObject", "tappxBanner"]
+- ["CSo8NSObject", "tappxEvent"]
+- ["CSo8NSObject", "tappxInterstitial"]
+- ["CSo8NSObject", "tappxMediation"]
+- !private ["CSo8NSObject", "userInterfaceIdiom"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- !private ["PSo16NSObjectProtocol", "NSError"]
+- !private ["PSo16NSObjectProtocol", "NSLocalizedDescriptionKey"]
+- ["PSo16NSObjectProtocol", "TappxSignaler"]
+- !private ["PSo16NSObjectProtocol", "UIDevice"]
+- ["PSo16NSObjectProtocol", "attempsLeft"]
+- ["PSo16NSObjectProtocol", "banner"]
+- !private ["PSo16NSObjectProtocol", "bannerFuture"]
+- !private ["PSo16NSObjectProtocol", "currentDevice"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- ["PSo16NSObjectProtocol", "error"]
+- !private ["PSo16NSObjectProtocol", "eventFuture"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "interstitial"]
+- !private ["PSo16NSObjectProtocol", "interstitialFuture"]
+- ["PSo16NSObjectProtocol", "interstitialSize"]
+- ["PSo16NSObjectProtocol", "isUpdating"]
+- ["PSo16NSObjectProtocol", "lastUpdated"]
+- !private ["PSo16NSObjectProtocol", "mediationFuture"]
+- !private ["PSo16NSObjectProtocol", "orientation"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "signaler"]
+- ["PSo16NSObjectProtocol", "tappxBanner"]
+- ["PSo16NSObjectProtocol", "tappxEvent"]
+- ["PSo16NSObjectProtocol", "tappxInterstitial"]
+- ["PSo16NSObjectProtocol", "tappxMediation"]
+- !private ["PSo16NSObjectProtocol", "userInterfaceIdiom"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- ["Ps21NilLiteralConvertible", "None"]
+- ["Sq", "None"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16RawRepresentable", "Pad"]
+- !private ["Ps16RawRepresentable", "Phone"]
+- !private ["Ps16RawRepresentable", "isPortrait"]
+- !private ["Ps16RawRepresentable", "x1024y768"]
+- !private ["Ps16RawRepresentable", "x320y480"]
+- !private ["Ps16RawRepresentable", "x480y320"]
+- !private ["Ps16RawRepresentable", "x768y1024"]
+- !private ["O14TappxFramework6Result", "failure"]
+- !private ["O14TappxFramework6Result", "success"]
+- !private ["P14TappxFramework10ResultType", "failure"]
+- !private ["P14TappxFramework10ResultType", "success"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["C14TappxFramework13TappxSignaler", "bannerFuture"]
+- !private ["C14TappxFramework13TappxSignaler", "eventFuture"]
+- ["C14TappxFramework13TappxSignaler", "init"]
+- !private ["C14TappxFramework13TappxSignaler", "interstitialFuture"]
+- !private ["C14TappxFramework13TappxSignaler", "mediationFuture"]
+- !private ["CSo8UIDevice", "currentDevice"]
+- !private ["CSo8UIDevice", "orientation"]
+- !private ["CSo8UIDevice", "userInterfaceIdiom"]
+- !private ["OSC19UIDeviceOrientation", "isPortrait"]
+- !private ["OSC20UIUserInterfaceIdiom", "Pad"]
+- !private ["OSC20UIUserInterfaceIdiom", "Phone"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps12_Reflectable", "Key"]
+- ["Ps12_Reflectable", "None"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "C14TappxFramework10DataSource"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "V14TappxFramework6Future"
+- !private "P14TappxFramework10FutureType"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "O14TappxFramework22InterstitialForcedSize"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "CSo7NSError"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps16RawRepresentable"
+- !private "O14TappxFramework6Result"
+- !private "P14TappxFramework10ResultType"
+- !private "Ps12SequenceType"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "C14TappxFramework13TappxSignaler"
+- !private "CSo8UIDevice"
+- !private "OSC19UIDeviceOrientation"
+- !private "OSC20UIUserInterfaceIdiom"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/dalarcon/Development/4Crew/TappxFrameworkWorkspace/TappxFramework/TappxFramework/TappxFramework.h"
+- "/Users/dalarcon/Development/4Crew/TappxFrameworkWorkspace/TappxFramework/build/TappxFramework.build/Release-iphoneos/TappxFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "0746f8af9ca4f2333eff6a41e8b92db6"

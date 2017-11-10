@@ -1,0 +1,54 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Request"
+provides-nominal:
+- "P14TappxFramework7Request"
+provides-member:
+- ["P14TappxFramework7Request", ""]
+- ["P14TappxFramework7Request", "path"]
+- ["P14TappxFramework7Request", "parameters"]
+- ["P14TappxFramework7Request", "body"]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "NSURL"
+- !private "StringLiteralType"
+- "Request"
+- "TappxPostBodyParameters"
+- "NSURLRequest"
+- "TappxQueryStringParameters"
+depends-member:
+- !private ["P14TappxFramework20PostBodyParameterSet", "init"]
+- !private ["P14TappxFramework17QueryParameterSet", "init"]
+- ["P14TappxFramework7Request", "NSURL"]
+- ["P14TappxFramework7Request", "NSURLRequest"]
+- ["P14TappxFramework7Request", "String"]
+- ["P14TappxFramework7Request", "TappxPostBodyParameters"]
+- ["P14TappxFramework7Request", "TappxQueryStringParameters"]
+- ["P14TappxFramework7Request", "baseURL"]
+- ["P14TappxFramework7Request", "body"]
+- ["P14TappxFramework7Request", "parameters"]
+- ["P14TappxFramework7Request", "path"]
+- ["P14TappxFramework7Request", "request"]
+- !private ["V14TappxFramework23TappxPostBodyParameters", "init"]
+- !private ["V14TappxFramework26TappxQueryStringParameters", "init"]
+depends-nominal:
+- !private "P14TappxFramework20PostBodyParameterSet"
+- !private "P14TappxFramework17QueryParameterSet"
+- "P14TappxFramework7Request"
+- !private "V14TappxFramework23TappxPostBodyParameters"
+- !private "V14TappxFramework26TappxQueryStringParameters"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/dalarcon/Development/4Crew/TappxFrameworkWorkspace/TappxFramework/TappxFramework/TappxFramework.h"
+- "/Users/dalarcon/Development/4Crew/TappxFrameworkWorkspace/TappxFramework/build/TappxFramework.build/Release-iphoneos/TappxFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "36615c851bab79b76c9c0f8f1721dbc4"

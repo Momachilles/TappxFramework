@@ -1,0 +1,1 @@
+ const unsigned char TappxFrameworkVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:TappxFramework  PROJECT:TappxFramework-1" "\n"; const double TappxFrameworkVersionNumber __attribute__ ((used)) = (double)1.;
